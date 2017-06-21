@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html ng-app="">
+<html ng-app="MyFirstApp">
 <head>
     <meta charset="utf-8">
 	<title>Hola Mundo - Angular</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="controller.js"></script>
 </head>
-<body>
+<body ng-controller="FirstController">
 
-  <p>{{"Hola " + "Mundo"}}</p>
-  <p>{{3 + 75}}</p>
-
+  <p>{{nombre}}</p>
 
 </body>
 </html>
